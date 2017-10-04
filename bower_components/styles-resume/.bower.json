@@ -1,0 +1,25 @@
+{
+  "name": "styles-resume",
+  "main": "styles-resume.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0"
+  },
+  "homepage": "https://github.com/jeromeelf/styles-resume",
+  "_release": "f90c0747e3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f90c0747e31601ef82dd1b4443f541b5f6bb1074"
+  },
+  "_source": "https://github.com/jeromeelf/styles-resume.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/jeromeelf/styles-resume.git"
+}

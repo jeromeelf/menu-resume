@@ -1,0 +1,56 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="menu-resume">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+
+      .menu-container {
+        width: 200px;
+        float: left;
+        @apply --resume-box;
+      }
+
+      .menu-item {
+        @apply --resume-menu-item;
+      }
+
+      .menu-item:last-child {
+        border: none;
+      }
+    </style>
+  </template>
+  <template>
+      <div class="menu-container">
+        <div class="menu-item">Quién soy?</div>
+        <div class="menu-item">Experiencia</div>
+      </div>
+    </div>
+  </template>
+
+  <script>
+    /**
+     * `menu-resume`
+     * 
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class MenuResume extends Polymer.Element {
+      static get is() { return 'menu-resume'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'menu-resume'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(MenuResume.is, MenuResume);
+  </script>
+</dom-module>
